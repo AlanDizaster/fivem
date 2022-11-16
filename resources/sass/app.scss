@@ -1,0 +1,41 @@
+// Fonts
+@import url('https://fonts.bunny.net/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import 'bootstrap/scss/bootstrap';
+
+.header{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+
+}
+.border-footer,
+.border-header{
+    border-color: #fcaf17 !important;
+}
+
+body{
+    height: 100%;
+    background-color: rgb(11,11,11);
+    color: rgb(255, 255, 255)
+}
+
+footer{
+    background-color: black;
+    border-color: #fcaf17;
+}
+
+.link-header{
+    color: #ffffff;
+}
+
+.link-header:hover{
+    color: #fcaf17;
+}
+
+.link-header:focus{
+    color: #fcaf17;
+}
