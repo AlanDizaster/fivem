@@ -13,8 +13,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+Route::get('/vehicles', [App\Http\Controllers\VehicleController::class, 'index']);
+
+Route::get('/weapons', function (){
+    return view('weapons');
 });
 
 Auth::routes();

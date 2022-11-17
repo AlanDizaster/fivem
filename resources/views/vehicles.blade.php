@@ -27,20 +27,26 @@
     </header>
         <div class="container">
             <h2>Boat</h2>
-            <br>
-            <ul class="">
-                <ui>
-                    <div>
-                        <div>
-                            <img src="./img/fivem.png" class="rounded mx-auto d-block">
-                        </div>
-                        <div>
-                            text
+            <div class="album py-5 bg-light site-style">
+                <div class="container">
+                    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3wc">
+                        <div class="col">
+                            <div class="card shadow-sm">
+                                <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="/img/vehicles/Dinghy2-GTAV-front.webp"></img>
+                                <div class="card-body">
+                                    <p class="card-text text-gray-900">Name: dfsf <br>Hash:</p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group">
+                                            <button type="button" class="btn btn-sm btn-outline-secondary link-header">View</button>
+                                            <button type="button" class="btn btn-sm btn-outline-secondary link-header">Edit</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </ui>
-                <li><div>kek</div></li>
-            </ul>
+                </div>
+            </div>
         </div>
             @include('layouts.footer')
     </body>
