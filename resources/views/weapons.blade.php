@@ -26,13 +26,13 @@
         @include('layouts.header')
     </header>
         <div class="container">
-            <h2>Boat</h2>
+            <h2>Melee</h2>
             <div class="album py-5 bg-light site-style">
                 <div class="container">
                     <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3wc">
                         <div class="col">
                             <div class="card shadow-sm">
-                                <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="/img/vehicles/Dinghy2-GTAV-front.webp"></img>
+                                <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="/img/weapons/Antique-cavalry-dagger-icon.webp"></img>
                                 <div class="card-body">
                                     <p class="card-text text-gray-900">Name: dfsf <br>Hash:</p>
                                     <div class="d-flex justify-content-between align-items-center">

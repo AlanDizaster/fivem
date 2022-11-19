@@ -7,8 +7,8 @@
 // Bootstrap
 @import 'bootstrap/scss/bootstrap';
 
-.header{
-    background-color: rgb(0, 0, 0);
+header{
+    background-color: black;
     color: rgb(255, 255, 255);
 
 }
@@ -28,14 +28,29 @@ footer{
     border-color: #fcaf17;
 }
 
+.site-style{
+    background-color: rgb(11,11,11) !important;
+}
+
+
 .link-header{
     color: #ffffff;
+    background-color: black;
 }
 
 .link-header:hover{
     color: #fcaf17;
+    background-color: black;
 }
 
 .link-header:focus{
     color: #fcaf17;
+}
+
+.gallery{
+    max-width: 100px;
+    max-height: 200px;
+}
+.gallery-img{
+    width: 15% !important;
 }
